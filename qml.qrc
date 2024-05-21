@@ -46,5 +46,10 @@
         <file>effects/ScaleImageEffect.qml</file>
         <file>effects/SimpleShaderRender.qml</file>
         <file>effects/GenieEffect.qml</file>
+        <file>effects/CurtainEffect.qml</file>
+        <file>effects/CurtainEffectComponent.qml</file>
+        <file>images/effects/background.png</file>
+        <file>images/effects/fabric.png</file>
+        <file>effects/TestFastBlur.qml</file>
     </qresource>
 </RCC>

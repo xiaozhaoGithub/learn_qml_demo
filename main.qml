@@ -87,12 +87,18 @@ Window {
 
 //            }
 
-            GenieEffect {
-                source: Image { source: 'qrc:/images/effects/lighthouse.jpg' }
-                MouseArea {
-                    anchors.fill: parent
-                    onClicked: parent.minimized = !parent.minimized
-                }
+//            GenieEffect {
+//                source: Image { source: 'qrc:/images/effects/lighthouse.jpg' }
+//                MouseArea {
+//                    anchors.fill: parent
+//                    onClicked: parent.minimized = !parent.minimized
+//                }
+//            }
+//            CurtainEffectComponent {
+
+//            }
+            TestFastBlur{
+
             }
         }
     }

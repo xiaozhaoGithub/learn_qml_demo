@@ -1,12 +1,16 @@
 import QtQuick 2.12
 
+// 效果封装成组件使用
 ShaderEffect {
     id: genieEffect
     width: 160
     height: width
     anchors.centerIn: parent
-    property variant source
+
+    // 想要获得最大化的视觉改变，需要增加我们的顶点数量。可以使用网格（mesh）来增加顶点：
     mesh: GridMesh { resolution: Qt.size(10, 10) }
+
+    property variant source
     property real minimize: 0.0
     property real bend: 0.0
     property bool minimized: false

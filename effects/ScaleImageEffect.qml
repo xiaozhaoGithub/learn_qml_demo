@@ -129,7 +129,6 @@ Rectangle {
             }
         }
 
-        // 想要获得最大化的视觉改变，需要增加我们的顶点数量。可以使用网眼（mesh）来增加顶点：
         mesh: GridMesh { resolution: Qt.size(16, 16) }
     }
 }
